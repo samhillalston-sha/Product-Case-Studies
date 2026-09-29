@@ -1,4 +1,4 @@
-# AI-Assisted Product Operations
+# AI-Assisted BRD Breakdowns to User Stories
 
 ### From requirements documents to refinement-ready Jira stories
 
