@@ -1,4 +1,4 @@
-# AI-Assisted BRD Breakdowns to User Stories
+# AI-Assisted BRD Breakdowns to User Stories and Jira Upload Automation
 
 ### From requirements documents to refinement-ready Jira stories
 
