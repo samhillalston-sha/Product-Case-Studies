@@ -6,13 +6,21 @@ This portfolio explores how I identify operational problems, design practical so
 
 ## Case studies
 
-### [AI-Assisted Product Operations](ai-product-operations/README.md)
+### [AI-Assisted BRD Breakdowns and Jira Upload Automation](ai-product-operations/README.md)
 
-How I established an end-to-end workflow at DTCC that turns requirements documents into fully prepared stories uploaded directly to Jira. Kiro drafts the first pass, the product manager iterates with it to refine the stories and challenge the requirements, and the approved stories are uploaded in moments—saving hours of manual preparation and Jira entry.
+An end-to-end workflow I established at DTCC that turns business and product requirements documents into **fully prepared user stories uploaded directly to Jira**.
 
-The case study covers Kiro agent skills, Jira MCP tools, Definition of Ready checks, and shared management through Bitbucket.
+Kiro takes a first pass at the requirements and proposes a story breakdown. The product manager then iterates with it to refine the stories, challenge assumptions, and uncover gaps. Once approved, Kiro uploads the stories to Jira in moments, including acceptance criteria, required fields, and approved dependencies.
 
-**Focus:** AI workflows · Product operations · Requirements management · Team enablement
+**The result: hours saved across requirements breakdown, story writing, formatting, and Jira entry**, with more time for product managers to evaluate requirements and make decisions.
+
+The case study covers:
+
+- **End-to-end automation:** Kiro agents and Jira tools connected through Model Context Protocol (MCP) carry the work from the source document through to populated Jira stories.
+- **Consistent story quality:** Reusable skills guide writing style and content, while weighted Definition of Ready rules identify gaps before refinement.
+- **Team adoption:** Server tools and agent skills are managed together in Bitbucket so the product team can reuse and improve the workflow.
+
+[Read the full case study →](ai-product-operations/README.md)
 
 ---
 
