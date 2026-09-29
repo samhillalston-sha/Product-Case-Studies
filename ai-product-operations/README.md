@@ -61,7 +61,7 @@ The readiness score uses the following weighted criteria:
 | Small enough for one sprint | 6% | Flags oversized stories and suggests how to split them. |
 | **Total** | **100%** | |
 
-**Before refinement, the workflow targets the 84% covered by preparation checks.** The remaining 16% comes from team estimation during refinement. The score helps identify missing information; product managers and the delivery team still validate the substance.
+The score helps identify missing information; product managers and the delivery team still validate the substance.
 
 Examples of the reusable skill instructions:
 
