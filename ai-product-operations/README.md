@@ -2,7 +2,7 @@
 
 ### End-to-end automation: from a requirements document to fully prepared stories in Jira
 
-As a Senior Product Manager at DTCC, I established a workflow that takes a requirements document all the way through to **fully prepared user stories uploaded to Jira**. Kiro takes a first pass at the document and proposes a story breakdown. I then iterate with it to refine the stories, challenge assumptions, and uncover gaps in the requirements. Once the stories are right, Kiro uploads them to Jira in moments, including their acceptance criteria, required fields, and approved relationships.
+As a Senior Product Manager at DTCC, I established a workflow that takes a requirements document all the way through to **fully prepared user stories uploaded to Jira**. Kiro takes a first pass at the document and proposes a story breakdown. I then iterate with it to refine the stories, challenge assumptions, and uncover gaps in the requirements. Once the stories are right, Kiro uploads them to Jira in moments, including their acceptance criteria, required fields, and approved dependencies.
 
 **This saves hours of manual work across requirements breakdown, story writing, formatting, and Jira entry.** Product managers focus their time on evaluating the requirements and making decisions throughout the process.
 
