@@ -1,6 +1,6 @@
 # Product Case Studies
 
-I'm Sam Alston, a Senior Product Manager focused on financial infrastructure, enterprise platforms, and AI workflows.
+I'm Sam Alston, a Senior Product Manager focused on financial infrastructure, risk management platforms, and AI workflows.
 
 This portfolio explores how I identify operational problems, design practical solutions, and make them reusable across teams. Each case study covers the problem, my contribution, how the solution works, and its practical value.
 
