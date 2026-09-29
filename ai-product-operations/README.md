@@ -1,8 +1,12 @@
 # AI-Assisted BRD Breakdowns to User Stories and Jira Upload Automation
 
-### From requirements documents to refinement-ready Jira stories
+### End-to-end automation: from a requirements document to fully prepared stories in Jira
 
-As a Senior Product Manager at DTCC, I established a shared workflow that uses **Jira tools connected through Model Context Protocol (MCP) and reusable Kiro agent skills** to turn business and product requirements into structured user stories. It combines AI drafting, consistent quality checks, and product manager review, with tools and skills managed in Bitbucket for team use.
+As a Senior Product Manager at DTCC, I established a workflow that takes a requirements document all the way through to **fully prepared user stories uploaded to Jira**. Kiro takes a first pass at the document and proposes a story breakdown. I then iterate with it to refine the stories, challenge assumptions, and uncover gaps in the requirements. Once the stories are right, Kiro uploads them to Jira in moments, including their acceptance criteria, required fields, and approved relationships.
+
+**This saves hours of manual work across requirements breakdown, story writing, formatting, and Jira entry.** Product managers focus their time on evaluating the requirements and making decisions throughout the process.
+
+The workflow combines reusable Kiro agent skills with Jira tools connected through Model Context Protocol (MCP). The tools and skills are managed in Bitbucket so the whole product team can use and improve the same process.
 
 ## The problem
 
@@ -15,22 +19,22 @@ Done manually, this creates repetitive work and inconsistent story quality. Ambi
 I brought the requirements breakdown process, Jira integration, and shared standards into one workflow by:
 
 - Translating story-writing expectations into reusable agent instructions and skills.
-- Connecting drafting and review to Jira through MCP server tools.
+- Connecting requirements analysis, iterative story development, and direct Jira upload through MCP server tools.
 - Incorporating Definition of Ready checks into story preparation and improvement.
 - Establishing product manager review before creating or updating Jira stories.
 - Managing the shared tools and skills in Bitbucket so the team can reuse and improve them.
 
 ## How it works
 
-**1. Understand and clarify the requirements.** A product manager provides a BRD, PRD, mockup, or other requirements source. Kiro reads the material and surfaces unclear requirements, contradictions, overlapping scope, and open questions. The product manager resolves these through a conversation with the agent.
+**1. Kiro takes the first pass.** A product manager provides a BRD, PRD, mockup, or other requirements source. Kiro reads it and proposes a breakdown into individual stories, with draft descriptions, business value, and acceptance criteria. It also surfaces initial questions and gaps.
 
-**2. Break the work into stories.** The agent proposes discrete pieces of work with clear user value. It drafts descriptions and testable acceptance criteria, captures business rules, and flags oversized stories or possible dependencies. Stories retain references to their source requirements so reviewers can follow how the backlog was derived.
+**2. The product manager and Kiro iterate together.** We work through the proposed stories, adjust scope, sharpen acceptance criteria, and challenge the underlying requirements. Kiro helps identify contradictions, missing business rules, edge cases, and dependencies. That conversation continues until the stories accurately reflect the intended work, with references back to the source requirements.
 
-**3. Assess readiness and improve the draft.** Shared rules grade stories against the team's Definition of Ready. The agent uses those same expectations when drafting, identifies gaps, and helps the product manager address them before refinement.
+**3. Check readiness and approve.** Shared skills guide the writing, while Definition of Ready rules help identify remaining gaps. The product manager reviews the stories and confirms the project, priority, epic, release, and any dependency links before upload.
 
-**4. Review and publish to Jira.** The product manager reviews the content and confirms the relevant project, priority, epic, and release information. Once approved, the agent uses the Jira connection to create or update stories, populate the required fields, and add approved dependency links.
+**4. Kiro uploads the prepared stories to Jira.** Through the MCP tools, Kiro creates the stories directly in Jira in moments, populating descriptions, acceptance criteria, required fields, and approved links. This completes the journey: the backlog is in Jira, ready for team refinement, without the product manager manually copying and configuring each ticket.
 
-**5. Refine with the delivery team.** The team uses the prepared stories to discuss implementation, validate scope, and assign estimates.
+The delivery team then discusses implementation, validates scope, and assigns estimates during refinement.
 
 ## The building blocks
 
@@ -38,7 +42,7 @@ I brought the requirements breakdown process, Jira integration, and shared stand
 | --- | --- |
 | **Kiro agents** | Read requirements, ask clarifying questions, propose story breakdowns, and draft or revise content with the product manager. |
 | **Agent skills and steering rules** | Supply reusable instructions for story structure, readiness checks, dependency handling, and review before Jira updates. |
-| **Jira MCP server tools** | Let the agent retrieve existing issues and their history, create or update stories, and manage supporting fields and relationships. MCP provides the connection between the agent and these tools. |
+| **Jira MCP server tools** | Turn approved drafts into populated Jira stories, including acceptance criteria, required fields, and relationships. They also retrieve and update existing issues. |
 | **Shared Bitbucket repository** | Keeps the server tools and agent skills together under version control for team use and continued improvement. |
 
 Existing stories are retrieved before editing, giving the agent context for targeted changes that preserve relevant information.
@@ -68,7 +72,7 @@ Examples of the reusable skill instructions:
 - **Story-writing style:** Use “As a [user], I want [capability], so that [outcome],” followed by a short business-value sentence. Keep the description concise and write in plain business language.
 - **Content rules:** Write independently testable acceptance criteria under clear headings. Capture confirmed business rules, flag unknowns, and distinguish assumptions from documented requirements.
 
-The agent is instructed to flag missing information and distinguish assumptions from confirmed requirements. Product managers remain responsible for business decisions, resolving ambiguity, and approving what goes into Jira.
+Product managers remain responsible for business decisions, resolving ambiguity, and approving what goes into Jira.
 
 ## Making it reusable across the team
 
@@ -78,9 +82,9 @@ This makes changes traceable and lets improvements spread across the team. For e
 
 ## Practical value
 
-The workflow has been applied to breaking requirements into multi-story backlogs, improving existing Jira stories, and reconstructing requirements summaries from existing issues.
+The main value is completing the full journey in one workflow: read the requirements, draft the stories, iterate on their substance, check quality, and upload the finished work directly to Jira. Automating the preparation and administrative tasks saves hours while giving product managers room to scrutinize the requirements along the way.
 
-It reduces manual re-entry, supports consistent story preparation, and preserves the connection between requirements and delivery work. The product operations benefit is a repeatable process the whole PM team can use, with human judgment built into the points where decisions matter.
+The finished product is a set of fully prepared Jira stories that the delivery team can pick up for refinement. The same tools also support improvements to existing stories and reconstruction of requirements summaries from Jira issues.
 
 ---
 
