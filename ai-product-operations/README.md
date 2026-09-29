@@ -47,7 +47,26 @@ Existing stories are retrieved before editing, giving the agent context for targ
 
 The **Definition of Ready** is the team's agreed standard for whether a story contains enough information to move into delivery. We translated it into rules that grade readiness and guide the skills used to craft stories, giving product managers a consistent way to identify gaps.
 
-The workflow prepares the parts that can be completed ahead of refinement. Estimation remains with the delivery team, so a well-prepared draft can still have readiness items outstanding until refinement is complete.
+The readiness score uses the following weighted criteria:
+
+| Readiness criterion | Weight | How the workflow addresses it |
+| --- | ---: | --- |
+| Clear, user-centered description | 20% | States the user, their need, and the intended outcome. |
+| Testable acceptance criteria | 16% | Defines independently testable requirements. |
+| Dependencies identified | 16% | Checks dependencies and proposes links for product manager approval. |
+| Team estimation | 16% | Reserved for the delivery team during refinement. |
+| Business value articulated | 10% | Explains why the story matters. |
+| Target release assigned | 8% | Confirms and sets the intended release. |
+| Linked to an epic | 8% | Connects the story to the agreed parent initiative. |
+| Small enough for one sprint | 6% | Flags oversized stories and suggests how to split them. |
+| **Total** | **100%** | |
+
+**Before refinement, the workflow targets the 84% covered by preparation checks.** The remaining 16% comes from team estimation during refinement. The score helps identify missing information; product managers and the delivery team still validate the substance.
+
+Examples of the reusable skill instructions:
+
+- **Story-writing style:** Use “As a [user], I want [capability], so that [outcome],” followed by a short business-value sentence. Keep the description concise and write in plain business language.
+- **Content rules:** Write independently testable acceptance criteria under clear headings. Capture confirmed business rules, flag unknowns, and distinguish assumptions from documented requirements.
 
 The agent is instructed to flag missing information and distinguish assumptions from confirmed requirements. Product managers remain responsible for business decisions, resolving ambiguity, and approving what goes into Jira.
 
