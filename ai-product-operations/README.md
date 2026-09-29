@@ -2,13 +2,13 @@
 
 ### From requirements documents to refinement-ready Jira stories
 
-As a Senior Product Manager at DTCC, I established a shared workflow that uses **Kiro agents, Jira tools connected through Model Context Protocol (MCP), and reusable agent skills** to turn business and product requirements into structured user stories. It combines AI drafting, consistent quality checks, and product manager review, with tools and skills managed in Bitbucket for team use.
+As a Senior Product Manager at DTCC, I established a shared workflow that uses **Jira tools connected through Model Context Protocol (MCP) and reusable Kiro agent skills** to turn business and product requirements into structured user stories. It combines AI drafting, consistent quality checks, and product manager review, with tools and skills managed in Bitbucket for team use.
 
 ## The problem
 
 Turning a Business Requirements Document (BRD) or Product Requirements Document (PRD) into a backlog requires substantial preparation: interpreting requirements, breaking down scope, writing acceptance criteria, identifying dependencies, and entering everything into Jira.
 
-Done manually, this creates repetitive work and inconsistent story quality. Ambiguities can carry into refinement, while context becomes scattered across documents and tickets. My goal was to improve story preparation and give product managers more time for decisions and stakeholder conversations.
+Done manually, this creates repetitive work and inconsistent story quality. Ambiguities can carry into refinement, while context becomes scattered across documents and tickets. My goal was to eliminate as much of the grunt work as possible, leaving more time for thoughtful analysis of the created requirements and of course all the other things product managers do.
 
 ## My contribution
 
